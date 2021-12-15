@@ -77,8 +77,8 @@ class PlayState extends MusicBeatState
 		['baby', 0.7], //69%
 		['kid, 0.8], //From 70% to 79%
 		['Blue', 0.9], //From 80% to 89%
-		['Neutro Blue!', 1], //From 90% to 99%
-		['Master Blue!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['NeutroBlue', 1], //From 90% to 99%
+		['MasterBlue', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 	
 	#if (haxe >= "4.0.0")
