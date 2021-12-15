@@ -46,8 +46,9 @@ class CreditsState extends MusicBeatState
 		add(grpOptions);
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
-			['Psych Engine Android Port'],
-			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Port',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
+			['FNF Blue Remixed owners'],
+			['Blue Boyfriend',		    'bf',		    'Main Coder of The Port',	 'https://youtube.com/channel/UCpgYxjh89FmKgx5utEWaZ9Q',	'0xFFC30085'],
+			['Blue Girlfriend',		    'gf',		    'Owner general',	 'https://youtube.com/channel/UCMS2DwumrxS88eX8WwH57fQ',	'0xFFC30085'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		'0xFFC30085'],
