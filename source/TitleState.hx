@@ -39,6 +39,7 @@ class TitleState extends MusicBeatState
 	static var initialized:Bool = false;
 
 	var blackScreen:FlxSprite;
+	var backgroundTitle:FlxSprite;
 	var credGroup:FlxGroup;
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
@@ -204,6 +205,10 @@ class TitleState extends MusicBeatState
 		logoBl.updateHitbox();
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
+		
+		backgroundTitle = new FlxSprite().loasGraphic(Paths.images('bluetitle'))
+		backgroundTitle.screenCenter();
+		backgroundTitle.antialiasing = ClientPrefs.globalAntialiasing;
 
 		swagShader = new ColorSwap();
 		if(!FlxG.save.data.psykaEasterEgg || !easterEggEnabled) {
@@ -220,6 +225,7 @@ class TitleState extends MusicBeatState
 			gfDance.animation.addByIndices('danceRight', 'psykaDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
 		}
 		gfDance.antialiasing = ClientPrefs.globalAntialiasing;
+		add(backgroundTitle);
 		add(gfDance);
 		gfDance.shader = swagShader.shader;
 		add(logoBl);
@@ -467,11 +473,11 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					createCoolText(['Psych Engine by'], 45);
+					createCoolText(['Blue Engine by'], 45);
 				// credTextShit.visible = true;
 				case 3:
-					addMoreText('Shadow Mario', 45);
-					addMoreText('RiverOaken', 45);
+					addMoreText('Blue Bf And Blue Gf', 45);
+					addMoreText('lol', 45);
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 				case 4:
