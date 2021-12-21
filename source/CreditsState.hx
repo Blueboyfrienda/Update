@@ -47,12 +47,13 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
 			['FNF Blue Remixed owners'],
-			['Blue Boyfriend',		    'bf',		    'Main Coder of The Port',	 'https://youtube.com/channel/UCpgYxjh89FmKgx5utEWaZ9Q',	'0xFFC30085'],
-			['Blue Girlfriend',		    'gf',		    'Main Coder of The Port',	 'https://youtube.com/channel/UCpgYxjh89FmKgx5utEWaZ9Q',	'0xFFC30085'],
-			['helpers'],
+			['Blue Boyfriend',		    'bf',		    'Modder/Chart/ModcCart',	 'https://youtube.com/channel/UCpgYxjh89FmKgx5utEWaZ9Q',	'0xFFC30085'],
+			['Blue Girlfriend',		    'gf',		    'Port/Sprite Concept/Effect Song',	 'https://youtube.com/channel/UCpgYxjh89FmKgx5utEWaZ9Q',	'0xFFC30085'],
+			['Helpers'],
 			['FaoN8',		'Farofa',		'Animator',					'https://twitter.com/Shadow_Mario_',	'0xFFFFDD33'],
 			['fexIsHere',			'D3',		'Animator',				'https://twitter.com/river_oaken',		'0xFFC30085'],
 			['Kloudz',			'k-mix',		'Animator',				'https://twitter.com/river_oaken',		'0xFFC30085'],
+			['Aly-Ant',		'alyant',	"Second Programmer/Sprite Artist'",				'https://twitter.com/Aly_Ant0',	'0xFFC0AFFF'],
 			[''],
 			['Rede Social'],
 			['Discord',				'discord',			'ironia e diversão',						'https://discord.gg/9jmfcYsd',			'0xFF4494E6'],
